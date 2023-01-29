@@ -26,5 +26,6 @@ jobs:
     - run: git config --global user.email "goatcorp@goat.place"
     - run: git config --global user.name "goatcorp"
     - run: yarn deploy:prep
+    - run: git subtree split --rejoin
     - run: git subtree pull --prefix out origin gh-pages
     - run: yarn deploy:push
