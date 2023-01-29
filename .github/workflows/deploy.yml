@@ -25,4 +25,5 @@ jobs:
     - run: yarn
     - run: git config --global user.email "goatcorp@goat.place"
     - run: git config --global user.name "goatcorp"
+    - run: git subtree pull --prefix out origin gh-pages
     - run: yarn deploy
