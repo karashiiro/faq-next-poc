@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "deploy": "npm run build && node ./scripts/nojekyll.js && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
+    "deploy:prep": "npm run build && node ./scripts/nojekyll.js && git add out/ && git commit -m \"Deploy\"",
+    "deploy:push": "git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@mdx-js/loader": "^2.2.1",
