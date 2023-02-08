@@ -1,0 +1,416 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="preload" as="style" type="text/css" crossorigin="" data-href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;display=swap"/><meta name="theme-color" content="#157878"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><script data-goatcounter="https://goatcorp.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script><link rel="preload" href="/faq-next-poc/_next/static/css/f57d0c530c746420.css" as="style"/><link rel="stylesheet" href="/faq-next-poc/_next/static/css/f57d0c530c746420.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/faq-next-poc/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/faq-next-poc/_next/static/chunks/webpack-e28608d608b9022c.js" defer=""></script><script src="/faq-next-poc/_next/static/chunks/framework-2c79e2a64abdb08b.js" defer=""></script><script src="/faq-next-poc/_next/static/chunks/main-46da9e6ad2732dda.js" defer=""></script><script src="/faq-next-poc/_next/static/chunks/pages/_app-fdeefed004c88a2f.js" defer=""></script><script src="/faq-next-poc/_next/static/chunks/pages/xl_troubleshooting-b28adc28a031a638.js" defer=""></script><script src="/faq-next-poc/_next/static/al-ty3kSIjmUvONmpuhTj/_buildManifest.js" defer=""></script><script src="/faq-next-poc/_next/static/al-ty3kSIjmUvONmpuhTj/_ssgManifest.js" defer=""></script></head><body><div id="__next"><header class="page-header" role="banner"><h1 class="project-name"><a style="text-decoration:none;color:#fff" href="/faq-next-poc">XIVLauncher Help</a></h1><h2 class="project-tagline">FAQ and Knowledgebase for XIVLauncher</h2><a class="btn" href="/faq-next-poc">Main Page</a> <a href="https://github.com/goatcorp/FFXIVQuickLauncher/releases/latest" class="btn">Download XIVLauncher</a> <a class="btn" href="/faq-next-poc">All FAQs</a></header><main id="content" class="main-content" role="main"><h1 id="xivlauncher-faq">XIVLauncher FAQ</h1>
+<h2 id="table-of-contents">Table of Contents</h2>
+<h3 id="info">Info</h3>
+<p><a href="#q-how-do-i-disable-autologin">How do I disable autologin?</a><br/>
+<a href="#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use">Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?</a><br/>
+<a href="#q-how-do-i-uninstall-xivlauncher">How do I uninstall XIVLauncher?</a><br/>
+<a href="#q-will-pluginsxivlauncher-work-on-patch-day">Will plugins/XIVLauncher work on patch day?</a><br/>
+<a href="#q-can-i-use-xivlauncher-to-log-in-early-before-a-patch-goes-live">Can I use XIVLauncher to log in early before a patch goes live?</a><br/>
+<a href="#q-where-can-i-find-my-ffxiv-installation">Where can I find my FFXIV installation?</a><br/>
+<a href="#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux">How do I migrate FFXIV and/or XIVLauncher files from an old Wine prefix to a new one? [Linux]</a><br/>
+<a href="#q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows">How do I migrate FFXIV and/or XIVLauncher files from an old installation to a new one? [Windows]</a><br/>
+<a href="#q-whats-the-deal-with-steam-support">What&#x27;s the deal with Steam support?</a></p>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p><a href="#q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program">I get an error saying XIVLauncher failed to check for updates when I open the program</a><br/>
+<a href="#q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors">I&#x27;m on Linux and I keep getting &quot;XIVLauncher failed to update&quot; errors</a><br/>
+<a href="#q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display">How come the in-game addon (Dalamud) doesn&#x27;t work and/or plugins don&#x27;t display?</a><br/>
+<a href="#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone">How do I whitelist XIVLauncher and Dalamud so my antivirus leaves them alone?</a><br/>
+<a href="#q-xivlauncher-isnt-saving-my-new-password--how-do-i-clear-my-saved-password">XIVLauncher isn&#x27;t saving my new password / how do I clear my saved password?</a><br/>
+<a href="#q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down">I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?</a><br/>
+<a href="#q-how-can-i-fix-crashes-on-startup">How can I fix crashes on startup?</a><br/>
+<a href="#q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open">The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn&#x27;t open</a><br/>
+<a href="#q-the-official-launcher-isnt-working--xivlauncher-failed-to-check-for-updates--patch-files-could-not-be-verified">The official launcher isn&#x27;t working / XIVLauncher failed to check for updates / Patch files could not be verified</a><br/>
+<a href="#q-how-to-set-an-injection-delay-in-rivatunerrtss">How to set an injection delay in RivaTuner/RTSS</a><br/>
+<a href="#q-can-i-repair-my-ffxiv-installation">Can I repair my FFXIV installation?</a><br/>
+<a href="#q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv">How do I fix a version check error when trying to update FFXIV?</a><br/>
+<a href="#q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes">I updated my game with TexTools mods installed. How do I fix crashes?</a></p>
+<h3 id="misc">Misc</h3>
+<p><a href="#do-not-run-xivlauncher-as-admin">Do not run XIVLauncher as admin</a><br/>
+<a href="#q-xl-environment-variables">XL Environment Variables</a><br/>
+<a href="#q-wtfast-config">WTFast Config</a></p>
+<hr/>
+<h3 id="q-how-do-i-disable-autologin">Q: How do I disable autologin?</h3>
+<p>Keep the shift key held down while you open XIVLauncher. Keep it held down until the main window appears.</p>
+<hr/>
+<h3 id="q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use">Q: Are XIVLauncher, Dalamud, and Dalamud Plugins safe to use?</h3>
+<p>Yes! Here at Goatcorp, we take security extremely seriously. Using our software should never put you in a situation where another player can detect you&#x27;re using third party modifications. At this time, we have no reason to believe that Square Enix does anything to detect client modifications in any form. Compare to using ReShade/GShade, ACT, Teamcraft, and other community projects.</p>
+<h4 id="general-disclaimer">General Disclaimer</h4>
+<p>You shouldn&#x27;t mention using XIVLauncher or plugins in-game, just like you shouldn&#x27;t admit to using <em>any</em> third party modifications, as it is technically against the FFXIV Terms of Service. We have no reported cases of a user being banned for using XIVLauncher, Dalamud, or Dalamud plugins, but you should still exercise caution. All officially supported plugins go through code review to ensure that they are not exploiting the game or doing anything in such a manner that would result in your game client sending invalid data to the game servers. <strong>We cannot endorse any unofficial plugins from third party plugin repositories. You use those at your own risk.</strong></p>
+<p>Additionally, XIVLauncher is entirely a <strong>hobby project</strong>. We do this because it&#x27;s fun to us, and not because we get paid for it. This means that we always try our best to be professional and responsive, but it also means that everything we do provide to you is on a &quot;best effort&quot; basis - maintaining software like this takes a lot of time and we&#x27;re just human as well :)</p>
+<p>If you have any questions about XIVLauncher, Dalamud, or Dalamud Plugins, please feel free to ask questions in our <a href="https://goat.place/">Discord server</a>. We are a primarily English-speaking community and support in other languages may be limited.</p>
+<h4 id="xivlauncher-security-specifics">XIVLauncher Security Specifics</h4>
+<p>Here are some additional details about XIVLauncher itself.</p>
+<ol>
+<li>XIVLauncher is open source. You can audit the code in the main <a href="https://github.com/goatcorp/FFXIVQuickLauncher/">XIVLauncher GitHub Repo</a>.</li>
+<li>XIVLauncher releases are now built directly on GitHub. Anything you download, you can be sure that it is from the version of the open source code that is listed on the GitHub repository. The XIVLauncher version check file is cached onto a private VPS to help reduce your chances of hitting GitHub API rate limits and country-specific ISP blocks. File downloads will show our proxy domain (<code>kamori.goats.dev</code>), but this redirects to GitHub. You may use a network analysis tool of your choice to verify this behavior. The VPS uses Cloudflare to cache the data in turn and is only accessible via VPN and a hardware key.</li>
+<li>In the event that the launcher has been modified, or you are running a version intended for development, it will clearly denote that it is a debug build or otherwise a test/unsupported release. <img src="images/xivlauncher_unsupported.png" alt="unsupported xivlauncher build"/>.</li>
+<li>XIVLauncher uses the Windows Credential Manager to safely store your account credentials, if you choose to save them. Your passwords are encrypted and can only be accessed by authorized programs. However, that does mean if someone manages to gain access to your computer, they can technically extract your password (but at that point, you likely have bigger issues).<!-- -->
+<ul>
+<li>XLCore (the Linux native XIVLauncher) uses <code>libsecret</code> to safely store your account credentials. <code>gnome-keyring</code>, <code>kwallet</code> (provided with KDE Framework version 5.97.0 or newer), <code>keepassxc</code>, <code>secret-service</code>, and other secret providers that implement <code>org.freedesktop.secrets</code> can be used for storing and managing these credentials.</li>
+</ul>
+</li>
+<li>XIVLauncher only communicates with our secured proxy, GitHub, and official FFXIV websites.</li>
+<li>XIVLauncher has been designed to fully replicate the same login and authorization process as the official launcher. Steps have been taken to ensure that it will always match retail, down to experiencing the same login issues. Patch downloads are obtained from the same patchlist that SE provides the retail launcher, and all patch files are verified to be correct before they are applied.</li>
+</ol>
+<h4 id="dalamud-security-specifics">Dalamud Security Specifics</h4>
+<p>Here are some additional details about Dalamud.</p>
+<ol>
+<li>Dalamud <strong>is</strong> a code injection framework. By definition, it&#x27;s going to look and act like a virus-like program. Your antivirus might even consider it harmful or potentially harmful software! You can read more about <a href="#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone">whitelisting Dalamud</a> elsewhere on the FAQ. <strong>We recommend whitelisting for the best experience, but your computing environment may not require it.</strong></li>
+<li>Dalamud allows you to read game memory and network packets. Compare this to using ACT.</li>
+<li>Dalamud&#x27;s framework comes with the ability for modifying game memory/hooking into game client memory and functions that plugins can choose to use. We however only provide safe read-only(where it applies) access to game data in the official <a href="https://goatcorp.github.io/Dalamud/api/index.html">Dalamud game data APIs</a>.</li>
+</ol>
+<h4 id="plugin-security-specifics">Plugin Security Specifics</h4>
+<p>Here are some additional details about Dalamud plugins.</p>
+<ol>
+<li>Dalamud plugins on our official plugin repository have been deemed &quot;safe to use&quot; by us.</li>
+<li>Officially supported plugins should always be downloaded/installed directly in game from the <code>/xlplugins</code> plugin installer. You don&#x27;t need to download them manually or install them manually.</li>
+<li>Dalamud does support third party plugin repositories, with limited support.</li>
+</ol>
+<p>Please note:</p>
+<ul>
+<li>We cannot provide support for unofficial plugins</li>
+<li>While many unofficial plugins are safe to use, others may do things that exploit the game or create unsafe conditions that could send invalid data to the game servers or could result in bans. Please exercise caution before using an unsupported plugin. We cannot take any responsibility for them.</li>
+<li>Unsupported plugin troubleshooting should be taken to the plugin developer or their relevant communities. Please do not ask for support on the XIVLauncher support discord for these plugins, even if they don&#x27;t have proper support channels elsewhere.</li>
+</ul>
+<h4 id="network-security-specifics">Network Security Specifics</h4>
+<p>These are the non-FFXIV domains you should expect to see network traffic from. All connections are made with HTTPS where possible. (Square-Enix is dumb and some of their services do not use HTTPS. We do not like this, but have no control over it.)</p>
+<p>You can find the source code for our additional web services here: <a href="https://github.com/goatcorp/XLWebServices/tree/master/XLWebServices">https://github.com/goatcorp/XLWebServices/tree/master/XLWebServices</a></p>
+<ol>
+<li><code>kamori.goats.dev</code> - this is a private VPS behind Cloudflare, run by the maintainer of XIVLauncher, to proxy and cache some common files that XIVLauncher and Dalamud need to check their version. It&#x27;s being used to reduce the number of network connections to GitHub so that users do not need to worry about hitting rate limits and having bad connections/being blocked by their countries&#x27; firewall, which then directs traffic to GitHub as needed. The VPS uses Cloudflare to cache the data in turn and is only accessible via VPN and a hardware key.</li>
+<li><code>github.com</code>, <code>raw.githubusercontent.com</code>, and <code>goatcorp.github.io</code> - It&#x27;s GitHub. You&#x27;re on it right now!</li>
+<li><code>is.xivup.com</code> - basic community site to check for server status.</li>
+</ol>
+<hr/>
+<h3 id="q-how-do-i-uninstall-xivlauncher">Q: How do I uninstall XIVLauncher?</h3>
+<p>You can uninstall XIVLauncher like any normal Windows program though the Control Panel or Settings app. If you want to purge any trace of it, check for and remove these folders.</p>
+<p>Program installation and old versions:</p>
+<ul>
+<li><code>%LocalAppData%\XIVLauncher</code></li>
+<li><code>%LocalAppData%\goatsoft</code> (if it exists)</li>
+</ul>
+<p>Settings/plugins and other user config:</p>
+<ul>
+<li><code>%AppData%\XIVLauncher</code></li>
+</ul>
+<hr/>
+<h3 id="q-will-pluginsxivlauncher-work-on-patch-day">Q: Will plugins/XIVLauncher work on patch day?</h3>
+<p>Please remember that many of the developers have school/jobs/both and live across a variety of time zones. Things will be updated when they can be. The notion that &quot;XL could be gone at any time&quot; still exists. <strong>We have no clue how much work/time any possible patch may take and we can&#x27;t give you any ETAs - it&#x27;s impossible.</strong> Please don&#x27;t badger us about it, the more support we have to do on patch days, the less work we can do to fix things.</p>
+<p>XIVLauncher:</p>
+<ul>
+<li>Users do not need to take any preemptive actions for XIVLauncher compatibility with a new patch.</li>
+<li>Unless SE decides to completely change how authentication or patch download/updating works, the launcher will work just fine on patch days.</li>
+</ul>
+<p>Dalamud:</p>
+<ul>
+<li>Dalamud has an internal mechanism that checks the client version and a whitelisted compatibility file.</li>
+<li>If the client version does not match what&#x27;s whitelisted, Dalamud will not load.</li>
+<li>Once Dalamud has been whitelisted, it will load the next time you launch with XIVLauncher. (We&#x27;ll also make an announcement on Discord)</li>
+<li>Dalamud may or may not require updates to be made compatible with the current client. This ultimately depends on how much changed internally and we cannot provide any estimates on how long it may take to whitelist as compatible.</li>
+</ul>
+<p>Plugins:</p>
+<ul>
+<li>Expect all plugins to stop working every patch.</li>
+<li>Once Dalamud has been whitelisted for a new patch, it will try to load plugins.</li>
+<li>It&#x27;s entirely possible that a patch will be fine for Dalamud, but break a plugin. (If this happens, you&#x27;ll want to disable/remove the plugin until it&#x27;s updated)</li>
+</ul>
+<hr/>
+<h3 id="q-can-i-use-xivlauncher-to-log-in-early-before-a-patch-goes-live">Q: Can I use XIVLauncher to log in early before a patch goes live?</h3>
+<p>No.</p>
+<p>Like every patch maintenance, the lobby server will likely be taken offline as usual. Even assuming you get the patch downloaded and applied mid-maintenance, your authorization will almost assuredly be expired before things are back up.</p>
+<p>You can make use of XL&#x27;s &quot;wait for maintenance to be over&quot; features to sit and check for boot patches (no login required) and then prompt you to login for game patches as soon as they are generally available.</p>
+<p>The &quot;wait for maintenance to be over&quot; feature can also check for servers to be live every ~15 seconds to get you logged in as soon as things are live.</p>
+<p>As with any patch, <strong>in-game addons will be automatically disabled until Dalamud is updated for new patch content</strong>. Do not manually inject Dalamud as a startup application unless you&#x27;d like to crash your client!</p>
+<hr/>
+<h3 id="q-where-can-i-find-my-ffxiv-installation">Q: Where can I find my FFXIV installation?</h3>
+<p>(AKA: What does XIVLauncher mean by &quot;game path&quot;?)</p>
+<p>FFXIV installs to a few different locations depending on whether you used the official installer or steam, when you installed it, and potentially if you installed the free trial or not. Here are some of the common paths.</p>
+<p>Whatever you do, DO NOT SELECT THE <code>boot</code> OR <code>game</code> FOLDER. But if you already have a copy of FFXIV installed, you&#x27;ll want the folder that contains them.</p>
+<p>Official Launcher:</p>
+<ul>
+<li><code>C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn</code></li>
+</ul>
+<p>Steam:</p>
+<ul>
+<li><code>C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online</code></li>
+<li><code>C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV - A Realm Reborn</code></li>
+</ul>
+<p><strong>NOTE</strong>: If your steam library is on another drive, it will have a different, but similar structure.</p>
+<p><img src="images/xivlaunchersSettings.png" alt="Example"/></p>
+<hr/>
+<h3 id="q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-wine-prefix-to-a-new-one-linux">Q: How do I migrate FFXIV and/or XIVLauncher files from an old Wine prefix to a new one? [Linux]</h3>
+<p>Once you&#x27;ve made your new XIVLauncher-based prefix, you can copy files from your old ffxiv prefix for the following:</p>
+<h4 id="copy-a-ffxiv-install-from-one-prefix-to-another-or-movesymlink-as-desired">Copy a FFXIV Install from one prefix to another (or move/symlink as desired)</h4>
+<ul>
+<li>Copy from: <code>~/Games/&lt;old prefix&gt;/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn</code></li>
+<li>Copy to :<!-- -->
+<ul>
+<li>(Lutris) <code>~/Games/&lt;new prefix&gt;/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn</code></li>
+<li>(Proton) <code>~/.steam/steam/steamapps/steamapps/common/FINAL FANTASY XIV Online</code></li>
+<li>(XLCore) <code>~/.xlcore/ffxiv</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="copy-your-usercharacter-settings">Copy your user/character settings</h4>
+<ul>
+<li>Copy from: <code>~/Games/&lt;old prefix&gt;/drive_c/users/&lt;username&gt;/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn</code></li>
+<li>Copy to:<!-- -->
+<ul>
+<li>(Lutris) <code>~/Games/&lt;new prefix&gt;/drive_c/users/&lt;username&gt;/Documents/My Games/FINAL FANTASY XIV - A Realm Reborn</code></li>
+<li>(Proton) <code>~/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn</code></li>
+<li>(XLCore) <code>~/.xlcore/ffxivConfig</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="copy-xivlauncher-config-please-reinstall-your-plugins">Copy XIVLauncher config (please reinstall your plugins)</h4>
+<ul>
+<li>Copy from: <code>~/Games/&lt;old prefix&gt;/drive_c/users/&lt;username&gt;/Application Data/XIVLauncher/pluginConfigs</code></li>
+<li>Copy to:<!-- -->
+<ul>
+<li>(Lutris) <code>~/Games/&lt;new prefix&gt;/drive_c/users/&lt;username&gt;/AppData/Roaming/XIVLauncher/pluginConfigs</code></li>
+<li>(XLCore) <code>~/.xlcore/pluginConfigs</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="copy-other-files-and-programs-in-the-wine-prefix">Copy other files and programs in the Wine Prefix</h3>
+<ul>
+<li>Copy from: <code>~/Games/&lt;old prefix&gt;/drive_c</code></li>
+<li>Copy to:<!-- -->
+<ul>
+<li>(Lutris) <code>~/Games/&lt;new prefix&gt;/drive_c</code></li>
+<li>(XLCore) <code>~/.xlcore/wineprefix/drive_c</code></li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h3 id="q-how-do-i-migrate-ffxiv-andor-xivlauncher-files-from-an-old-installation-to-a-new-one-windows">Q: How do I migrate FFXIV and/or XIVLauncher files from an old installation to a new one? [Windows]</h3>
+<h4 id="copy-a-ffxiv-install">Copy a FFXIV Install</h4>
+<p>For the most part, FFXIV is portable. You just need to make sure you&#x27;ve installed DirectX as needed. I recommend installing the launcher with SE&#x27;s installer first, and then replacing the files with a backup if you don&#x27;t want to patch.</p>
+<p><strong>NOTE</strong>: You shouldn&#x27;t do this if you had TexTools installed. Or at least, make sure to restore indexes/repair game first as it probably broke your client.</p>
+<ul>
+<li>Copy your user\character settings: <code>%USERPROFILE%\Documents\My Games\FINAL FANTASY XIV - A Realm Reborn</code></li>
+<li>Copy XIVLauncher config (please reinstall your plugins): <code>%appdata%\XIVLauncher\pluginConfigs</code>
+<ul>
+<li><strong>NOTE</strong>: do not copy other config or folders as those are unique to that particular computer. You should set them up per machine.</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h3 id="q-whats-the-deal-with-steam-support">Q: What&#x27;s the deal with Steam support?</h3>
+<p>People who bought FFXIV on Steam are required to link their Steam account to their Square Enix account in the official launcher. We have no way around this, and because of this, you are required to have Steam open if you have a Steam service account.</p>
+<p>Your Steam installation also needs to be signed into the correct account.</p>
+<p>If you want the Steam overlay on a non-Steam service account, you need to add XIVLauncher as a non-Steam game through Steam. If you want Steam to count hours for FFXIV, you can right-click it in your library, choose <code>Properties</code> and set <code>Launch Options</code> to <code>C:\Users\**YOUR USERNAME HERE**\AppData\Local\XIVLauncher\XIVLauncher.exe %command%</code>.</p>
+<hr/>
+<h3 id="q-i-get-an-error-saying-xivlauncher-failed-to-check-for-updates-when-i-open-the-program">Q: I get an error saying XIVLauncher failed to check for updates when I open the program</h3>
+<p>There are a few different reasons that XIVLauncher will fail to open. Here are a few common ones.</p>
+<h4 id="xivlauncher-is-being-blocked-by-my-antivirusfirewall">XIVLauncher is being blocked by my antivirus/firewall</h4>
+<p>See the main <a href="#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone">antivirus FAQ post</a> for information on how to whitelist XIVLauncher.</p>
+<h4 id="github-rate-limits">GitHub Rate Limits</h4>
+<p>If you&#x27;ve made a lot of queries to GitHub recently, it&#x27;s possible they may have rate-limited you. This is usually a combined effort of XIVLauncher, Dalamud, Dalamud plugin updates, GShade, etc. all being done in rapid succession, which shouldn&#x27;t happen under normal circumstances.</p>
+<ol>
+<li>Try to visit <a href="https://api.github.com/rate_limit">https://api.github.com/rate_limit</a> and see if the post loads (or downloads a JSON file).</li>
+<li>Look for <code>resources.core.remaining</code>. If it&#x27;s 0, you&#x27;ve hit GitHub&#x27;s rate limit.</li>
+<li>If you&#x27;ve hit the limit, grab the timestamp number from resources.core.reset and convert the UTC timestamp into a human-readable date. <a href="https://www.unixtimestamp.com/">unixtimestamp.com</a> works great for this.</li>
+<li>Wait the alloted time before launching again, or the timeout period could be extended (if you absolutely need to get in game, use the official launcher during this time).</li>
+</ol>
+<h4 id="not-sure">Not sure?</h4>
+<p>For the fastest support, head over to our <a href="https://goat.place/">Discord server</a>. and post into the XIVLauncher help channel with the error you&#x27;re getting, a screenshot (if possible), and your <code>output.log</code> file (which can be found in <code>%AppData%\XIVLauncher</code> - use <code>f!faq logxl</code> in the Discord for more details there).</p>
+<hr/>
+<h3 id="q-im-on-linux-and-i-keep-getting-xivlauncher-failed-to-update-errors">Q: I&#x27;m on Linux and I keep getting &quot;XIVLauncher failed to update&quot; errors</h3>
+<p>On some more recent Linux distributions, TLS 1.0 and 1.1 has been disabled. This causes an issue with Wine and FFXIV/XIVLauncher because it may not always negotiate TLS correctly.</p>
+<p>You can fix this by setting your <code>dssenh</code> DLL override to native if it isn&#x27;t already. (<code>dssenh=n</code> as an environment variable or in Lutris)</p>
+<p>This has also been added to the xivlauncher Lutris script as well.</p>
+<p>Thank you to kainz0r for this tip!
+<img src="images/LinuxConfigScreenshot.png" alt="Example"/></p>
+<p>On <strong>Fedora</strong>? You will need to run <code>sudo update-crypto-policies --set DEFAULT:FEDORA32</code> in order to lighten up the security policies as Fedora 33 and later have stricter SSL/TLS settings. <code>FEDORA32</code> didn&#x27;t work? Try instead: <code>sudo update-crypto-policies --set LEGACY</code></p>
+<hr/>
+<h3 id="q-how-come-the-in-game-addon-dalamud-doesnt-work-andor-plugins-dont-display">Q: How come the in-game addon (Dalamud) doesn&#x27;t work and/or plugins don&#x27;t display?</h3>
+<p>Like many other game tools, Dalamud works by injecting into the FFXIV process and hooking DirectX. Occasionally, it conflicts with other tools or can&#x27;t work because of them.</p>
+<p>Some of the more common ones that may cause issues are:</p>
+<ul>
+<li><strong>Common Third-Party Antivirus</strong>: See <a href="#q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone">this FAQ entry</a>.</li>
+<li><strong>FRAPS</strong>: Please make sure FRAPS is closed when opening FFXIV. It hooks DirectX for the FPS display and/or recording. You can open it for those features after the game is running.</li>
+<li><strong>Logitech GHub</strong>: We don&#x27;t know why this is a problematic application, but it is. This program may cause Dalamud to crash when exiting the game, leaving you on a black screen that&#x27;s stuck and has to be closed uncleanly.</li>
+<li><strong>MacType</strong>: MacType makes no changes to FFXIV because it doesn&#x27;t use normal fonts anyways. Block it from hooking to FFXIV and you&#x27;ll be fine.</li>
+<li><strong>MSI Afterburner</strong>: Contains RTSS. See below.</li>
+<li><strong>OBS</strong>: Some of the streaming modes involve hooking DirectX for better capture. This can cause plugins to render in streams or to not render at all. You may need to change your capture methods.</li>
+<li><strong>RivaTuner</strong>/<strong>RTSS</strong>: Either blacklist FFXIV from automatic hooking or <a href="#q-how-to-set-an-an-injection-delay-in-rivatunerrtss">set a RTSS load delay</a>. RTSS can be used after Dalamud loads without issues.</li>
+<li><strong>SpecialK</strong>: This also injects into DirectX and can mess things up for Dalamud&#x27;s injection. It&#x27;s not consistent, but you probably shouldn&#x27;t use it unless you have a way of making it hook after Dalamud has loaded.</li>
+</ul>
+<hr/>
+<h3 id="q-how-do-i-whitelist-xivlauncher-and-dalamud-so-my-antivirus-leaves-them-alone">Q: How do I whitelist XIVLauncher and Dalamud so my antivirus leaves them alone?</h3>
+<p>Please make exceptions (or whitelist) the following folders:</p>
+<ul>
+<li><code>%LocalAppData%\XIVLauncher</code></li>
+<li><code>%AppData%\XIVLauncher</code></li>
+<li>Your FFXIV game installation folder</li>
+</ul>
+<p>Please also restart your computer afterwards.</p>
+<p><strong>NOTE</strong>: Most programs will not let you use the shorthand for <code>%localappdata%</code> and <code>%appdata%</code>. You will need to use their full/real path (usually some form of <code>C:\Users\AppData</code> followed by <code>Local</code> or <code>Roaming</code>.</p>
+<h4 id="resetting-dalamud">Resetting Dalamud</h4>
+<p>You may also need to reset Dalamud (the plugin system). To reset Dalamud, remove the <code>%AppData%\XIVLauncher\addon\Hooks</code> folder.</p>
+<h4 id="extra-exceptions">Extra Exceptions</h4>
+<p>You should also try to whitelist the following files if possible:</p>
+<ul>
+<li><code>(your FFXIV installation)\game\ffxiv_dx11.exe</code></li>
+<li><code>%LocalAppData%\XIVLauncher\XIVLauncher.exe</code></li>
+<li><code>%LocalAppData%\XIVLauncher\app-X.Y.Z\XIVLauncher.exe</code>
+<ul>
+<li>NOTE: replace X.Y.Z with the latest version available. <strong>This changes with every launcher update!</strong></li>
+</ul>
+</li>
+<li><code>%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.Injector.exe</code>
+<ul>
+<li>NOTE: replace W.X.Y.Z with the latest version available. <strong>This changes with every Dalamud update!</strong></li>
+</ul>
+</li>
+<li><code>%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\DalamudCrashHandler.exe</code>
+<ul>
+<li>NOTE: replace X.Y.Z with the latest version available. <strong>This changes with every launcher update!</strong></li>
+</ul>
+</li>
+<li><code>%AppData%\XIVLauncher\addon\Hooks\W.X.Y.Z\Dalamud.dll</code>
+<ul>
+<li>NOTE: replace W.X.Y.Z with the latest version available. <strong>This changes with every Dalamud update!</strong></li>
+</ul>
+</li>
+<li><code>%AppData%\XIVLauncher\runtime</code></li>
+</ul>
+<h4 id="instructions-for-individual-av">Instructions for individual AV</h4>
+<ul>
+<li>Avast: <a href="https://support.avast.com/en-ww/article/Antivirus-scan-exclusions">https://support.avast.com/en-ww/article/Antivirus-scan-exclusions</a></li>
+<li>AVG: <a href="https://support.avg.com/SupportArticleView?l=en&amp;urlname=AVG-Antivirus-scan-exclusions">https://support.avg.com/SupportArticleView?l=en&amp;urlname=AVG-Antivirus-scan-exclusions</a></li>
+<li>Bitdefender: <a href="https://www.bitdefender.com/consumer/support/answer/13427/">https://www.bitdefender.com/consumer/support/answer/13427/</a>
+<ul>
+<li>NOTE: BitDefender users will also need to whitelist XIVLauncher&#x27;s program files (<code>%LocalAppData%</code> stuff) through the <a href="https://www.bitdefender.com/consumer/support/answer/13425/">BitDefender firewall</a>. Otherwise, XIVLauncher will fail to check for updates, possibly fail to apply patches, and won&#x27;t be able to download plugins.</li>
+</ul>
+</li>
+<li>Kaspersky Internet Security: <a href="https://usa.kaspersky.com/blog/kaspersky-add-exclusion/11075/">https://usa.kaspersky.com/blog/kaspersky-add-exclusion/11075/</a>
+<ul>
+<li>NOTE: Please add <strong>file and folder</strong> exclusion in the <code>Threats and Exclusions</code> section for the antivirus component. See the lists above for all details. You may also need to explicitly manager which AV scanners need to be disabled. <a href="https://user-images.githubusercontent.com/10376708/131000436-35097d20-f186-4942-ab43-73e51ff77609.png">See this image for an example</a>.</li>
+<li>NOTE 2: You may need to whitelist XIVLauncher&#x27;s program files in the <strong><a href="https://support.kaspersky.com/15163">Kaspersky firewall</a></strong> Application Rules as well. You&#x27;ll know if you need to do this if you receive error messages related to checking for updates, applying patches, or downloading plugins and your logs indicate an access permission issue.</li>
+</ul>
+</li>
+<li>McAfee: <a href="https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056">https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS102056</a>
+<ul>
+<li>NOTE: McAfee doesn&#x27;t allow you to whitelist folders. Instead, you&#x27;ll need to whitelist files, which is more annoying and also version-specific. See the list above.</li>
+</ul>
+</li>
+<li>Norton: <a href="https://support.norton.com/sp/en/us/home/current/solutions/v3672136">https://support.norton.com/sp/en/us/home/current/solutions/v3672136</a> or <a href="https://www.lifewire.com/exclude-files-from-norton-antivirus-scans-153348">https://www.lifewire.com/exclude-files-from-norton-antivirus-scans-153348</a>
+<ul>
+<li>NOTE: You may also need to make exclusions from active detection or another similarly named feature.</li>
+</ul>
+</li>
+<li>Windows Defender: <a href="https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security">https://support.microsoft.com/en-us/help/4028485/windows-10-add-an-exclusion-to-windows-security</a></li>
+</ul>
+<p>(<strong>PLEASE PROCEED WITH CAUTION</strong>. If you&#x27;re installing dev plugins, third-party plugins, or something outside of the normal <code>/xlplugins</code> method, we cannot be sure that the plugins will work, be undetected in-game, and not cause harm to your computer.)</p>
+<hr/>
+<h3 id="q-xivlauncher-isnt-saving-my-new-password--how-do-i-clear-my-saved-password">Q: XIVLauncher isn&#x27;t saving my new password / how do I clear my saved password?</h3>
+<p>XIVLauncher saves user credentials in the Windows Credential Manager. They will be appropriately labelled so you can find the exact one you want to edit/remove.</p>
+<ol>
+<li>Open the Windows Credential Manager application. The fastest method is to just start typing its name in the start menu.</li>
+<li>Select button for Windows Credentials</li>
+<li>Scroll down until you see an entry like FINAL FANTASY XIV-username and expand the entry</li>
+<li>Delete the entry. XIVLauncher will no longer be able to load it.</li>
+<li>Now open XIVLauncher and try to login.</li>
+</ol>
+<p>If you need more help, a basic guide can be found on <a href="https://pureinfotech.com/credential-manager-windows-10/">https://pureinfotech.com/credential-manager-windows-10/</a>.</p>
+<hr/>
+<h3 id="q-i-think-xivlauncher-is-giving-me-a-blue-screen-of-death-what-information-would-help-narrow-this-down">Q: I think XIVLauncher is giving me a Blue Screen of Death. What information would help narrow this down?</h3>
+<p>(NOTE: It&#x27;s probably not XIVLauncher, but the following information will help us verify that)</p>
+<ol>
+<li>What stop code are you getting?</li>
+<li>What is the faulting application or driver?</li>
+<li>When did this start happening for you?</li>
+<li>Which plugins do you have installed? Does it still happen if you disable them and selectively re-enable them one by one?</li>
+<li>Have you done a full uninstall of XIVLauncher and reinstall? (see a few posts above for details)</li>
+</ol>
+<p>If unsure about some of those details or if the Windows Event Viewer doesn&#x27;t tell you, <a href="https://www.nirsoft.net/utils/blue_screen_view.html">BlueScreenView</a> can read the memory dump (please let the computer finish it without hitting the reset button while it dumps your memory to hard drive).</p>
+<hr/>
+<h3 id="q-how-can-i-fix-crashes-on-startup">Q: How can I fix crashes on startup?</h3>
+<p>Please try to install the VC Redist from Microsoft at <a href="https://github.com/abbodi1406/vcredist/releases/latest">https://github.com/abbodi1406/vcredist/releases/latest</a>, as well as the .NET 4.8 Runtime <a href="https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer">https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer</a>.</p>
+<p>If you are still facing issues, please join our <a href="https://goat.place/">Discord server</a>.</p>
+<hr/>
+<h3 id="q-the-launcher-shows-a-red-world-icon-and-an-error-message-when-trying-to-log-in-and-the-official-launcher-doesnt-open">Q: The launcher shows a red world icon and an error message when trying to log in, and the official launcher doesn&#x27;t open</h3>
+<p>This is an issue with Square Enix servers that has been affecting players in the US for a while now, being caused by the login servers being hosted directly by SE in Japan and not taking care of their routes to players.</p>
+<p>To remedy it, you can either wait a while and try again then, or set your VPN to Japan until you are on the title screen. Then you should be able to play normally without a VPN. DNS changes have also been said to help.</p>
+<p>We can recommend <a href="https://mudfish.net">MUDFISH</a> as a VPN for playing FFXIV as it&#x27;s cheap and seems to work reliably. If you get errors when patching, we recommend <a href="https://protonvpn.com/">ProtonVPN</a> or <a href="https://1.1.1.1/">Cloudflare WARP</a>.</p>
+<p>To troubleshoot, you can ping <code>frontier.ffxiv.com</code>, SE&#x27;s Japanese login server.</p>
+<hr/>
+<h3 id="q-the-official-launcher-isnt-working--xivlauncher-failed-to-check-for-updates--patch-files-could-not-be-verified">Q: The official launcher isn&#x27;t working / XIVLauncher failed to check for updates / Patch files could not be verified</h3>
+<p>Most likely, there&#x27;s an issue with your network connection or the route it&#x27;s taken to Square Enix&#x27;s servers and/or GitHub. The only information XIVLauncher really gets from this is &quot;something went wrong&quot; though.</p>
+<p>While this usually is a per-household kinda thing, there&#x27;s no guarantee that multiple computers in the same location would get load balanced onto the same servers (which is why one computer worked and another didn&#x27;t).</p>
+<p>If you&#x27;re sure this isn&#x27;t a firewall issue or a rate limit, here are some things you can try.</p>
+<ul>
+<li>Reboot the computer</li>
+<li>Reboot the network equipment (modem and router)</li>
+<li>Try different DNS<!-- -->
+<ul>
+<li>Google offers 8.8.8.8 and 8.8.4.4</li>
+<li>CloudFlare offers 1.1.1.1 and 1.0.0.1</li>
+<li>Level3 offers 4.2.2.2 and 4.2.2.4</li>
+</ul>
+</li>
+<li>Try a VPN<!-- -->
+<ul>
+<li>If you already connect using a VPN, try disconnecting it first</li>
+<li>If you want to try a free VPN service, Cloudflare offers one at <a href="https://1.1.1.1/">https://1.1.1.1/</a> or you can try <a href="https://protonvpn.com/">ProtonVPN</a> for more control.</li>
+<li>If you want to try a paid VPN service (still no guarantee) we&#x27;ve recommended <a href="https://mudfish.net">MUDFISH</a> in the past.</li>
+</ul>
+</li>
+<li>Copy a working FFXIV install from another computer<!-- -->
+<ul>
+<li>The easiest method is to just copy the folder onto a large flash drive or external HDD.</li>
+<li>If you&#x27;re familiar with setting up Windows Sharing, you can also share the drive/folder from a working computer and copy it over your network.</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h3 id="do-not-run-xivlauncher-as-admin">Do not run XIVLauncher as admin</h3>
+<p>Yes, you&#x27;ve read that correctly! <strong>Please do not run XIVLauncher as admin.</strong> (And by extension, please do not run Dalamud manually as admin.)</p>
+<p>You should also never let FFXIV run as admin as it <strong>can and will result in your game configuration data becoming write-protected by your own user</strong>. This can result in you being unable to save character config, hotbars, settings, and take screenshots, with no easy solution beyond trying to fix broken permissions or deleting all config and starting over. (SE does not handle file permissions very well!)</p>
+<hr/>
+<h3 id="xl-environment-variables">XL Environment Variables</h3>
+<p>You can set <code>XL_PRERELEASE=true</code> for testing a new release of XIVLauncher if applicable. <strong>If you set this on without knowing what it does, we will not help you if something breaks.</strong></p>
+<p>Don&#x27;t use the wine env var anymore. Just use the properly working Lutris scripts that work with SquirrelSetup.</p>
+<p><strong>Support will not be provided if you are not on the current version of XL, Dalamud, and plugins. Use with caution as outdated versions will likely crash.</strong></p>
+<hr/>
+<h3 id="q-wtfast-config">Q: WTFast Config</h3>
+<p><img src="images/wtfastconfig.png" alt="WTFast config settings"/></p>
+<hr/>
+<h3 id="q-how-to-set-an-injection-delay-in-rivatunerrtss">Q: How to set an injection delay in RivaTuner/RTSS</h3>
+<ol>
+<li>Go to <code>C:\Program Files (x86)\RivaTuner Statistics Server\Profiles\\</code>.</li>
+<li>Open the<code>ffxiv_dx11.exe.cfg</code> file in your text editor of choice.</li>
+<li>Find the <code>[Hooking]</code> section and change 2 parameters there:</li>
+</ol>
+<pre><code class="language-text">InjectionDelay=15000
+InjectionDelayTriggers=KERNEL32.dll,USER32.dll
+</code></pre>
+<p>If they are not present, add them.</p>
+<hr/>
+<h3 id="q-can-i-repair-my-ffxiv-installation">Q: Can I repair my FFXIV installation?</h3>
+<p>Yes! Right click <code>Log in</code> in XIVLauncher and select <code>Repair game files</code>.</p>
+<p><strong>DO NOT USE THE REPAIR FEATURE IN THE OFFICIAL LAUNCHER!</strong> It deletes your entire game installation and redownloads it.</p>
+<hr/>
+<h3 id="q-how-do-i-fix-a-version-check-error-when-trying-to-update-ffxiv">Q: How do I fix a version check error when trying to update FFXIV?</h3>
+<ol>
+<li>Go to <code>(your user folder)\Documents\My Games\FINAL FANTASY XIV - A Realm Reborn</code>.</li>
+<li>Open the <code>FFXIV_BOOT.cfg</code> file in your text editor of choice.</li>
+<li>Change <code>BootVersionCheckMode</code> to <code>1</code>.</li>
+<li>Relaunch.</li>
+</ol>
+<hr/>
+<h3 id="q-i-updated-my-game-with-textools-mods-installed-how-do-i-fix-crashes">Q: I updated my game with TexTools mods installed. How do I fix crashes?</h3>
+<p>You&#x27;ll know if you&#x27;re affected by this because the official launcher will crash the game too. This issue is not caused by XIVLauncher.</p>
+<p>Back up your mod files and <a href="#q-can-i-repair-my-ffxiv-installation">follow this FAQ entry to repair your game</a>. Please note your mods will be uninstalled.</p>
+<hr/>
+<p>Want to add a new FAQ entry? Please use the template below and PR to the main <a href="https://github.com/goatcorp/faq">FAQ repo</a>:</p>
+<pre><code class="language-md">### Q: Basic Title
+
+(FAQ content)
+
+---
+</code></pre>
+<p>Then add it to the Table of Contents using <code>- [Name / Title here](#anchor here)</code>.</p>
+<p><a href="#table-of-contents">Return to the top</a><br/>
+<a href="/faq-next-poc">Return to the main FAQ</a></p><footer class="site-footer"><span><a href="https://github.com/goatcorp/faq">faq</a> is maintained by <a href="https://github.com/goatcorp">goatcorp</a>. <b><a href="/faq-next-poc/support">Support what we care about!</a></b></span></footer></main></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/xl_troubleshooting","query":{},"buildId":"al-ty3kSIjmUvONmpuhTj","assetPrefix":"/faq-next-poc","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>
